@@ -1,0 +1,14 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.update-btn{
+    display: block;
+    margin:auto;
+    background-color: pink;
+    border-radius: 10px;
+    padding: 5px 30px;
+}
