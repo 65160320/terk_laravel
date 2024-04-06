@@ -14,8 +14,5 @@ Route::post("/register",[userController::class,"register_store"]);
 
 Route::get("/logout",[userController::class,"logout"]);
 
-Route::get('/', function () {
-    return Redirect::to("/friends");
-});
 
 Route::resource("/friends",friendsController::class)-> middleware("auth");

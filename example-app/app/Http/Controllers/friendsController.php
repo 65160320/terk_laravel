@@ -33,6 +33,7 @@ class friendsController extends Controller
         $friendsModel->save();
         return Redirect::to("/friends");
     }
+    
 
     public function show(string $id)
     {
@@ -82,3 +83,5 @@ class friendsController extends Controller
         return Redirect::to("/friends");
     }
 }
+
+
